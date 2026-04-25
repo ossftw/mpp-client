@@ -3196,7 +3196,7 @@ $(function() {
     $("#account .login-discord").click(function(evt) {
       location.replace(
         encodeURI(
-          `https://discord.com/api/oauth2/authorize?client_id=926633278100877393&redirect_uri=${location.origin}/?callback=discord&response_type=code&scope=identify email`,
+          `https://discord.com/api/oauth2/authorize?client_id=926633278100877393&redirect_uri=https://multiplayerpiano.net/?callback=discord&response_type=code&scope=identify email`,
         ),
       );
     });
